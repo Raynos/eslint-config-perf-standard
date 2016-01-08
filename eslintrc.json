@@ -83,19 +83,7 @@
             2,
             "^(err|error|anySpecificError)$"
         ],
-        "id-length": [
-            2,
-            {
-                "min": 2,
-                "max": 25,
-                "properties": "always",
-                "exceptions": [
-                    "i",
-                    "j",
-                    "k"
-                ]
-            }
-        ],
+        "id-length": 0,
         "id-match": 0,
         "indent": [
             2,
@@ -110,14 +98,7 @@
             }
         ],
         "linebreak-style": 2,
-        "lines-around-comment": [
-            2,
-            {
-                "beforeBlockComment": true,
-                "beforeLineComment": true,
-                "allowBlockStart": true
-            }
-        ],
+        "lines-around-comment": 0,
         "max-depth": [
             2,
             4
@@ -158,7 +139,7 @@
         "no-cond-assign": 2,
         "no-console": 2,
         "no-constant-condition": 2,
-        "no-continue": 2,
+        "no-continue": 0,
         "no-control-regex": 2,
         "no-debugger": 2,
         "no-delete-var": 2,
