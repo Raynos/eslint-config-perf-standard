@@ -12,25 +12,19 @@ A set of eslint rules for performant JS
 
 ## Example
 
+Works with eslint@1.8.0
+
+Use like so:
+
 ```js
-var eslintConfigPerfStandard = require("eslint-config-perf-standard");
-
-// TODO. Show example
+// .eslintrc
+{
+    "extends": "perf-standard",
+    "rules": {
+        "max-len": [0]
+    }
+}
 ```
-
-## Docs
-
-### `var someValue = eslintConfigPerfStandard(/*arguments*/)`
-
-<!--
-  This is a jsig notation of your interface.
-  https://github.com/Raynos/jsig
--->
-```ocaml
-eslint-config-perf-standard := (arg: Any) => void
-```
-
-// TODO. State what the module does.
 
 ## Installation
 
