@@ -301,7 +301,9 @@
             "after"
         ],
         "padded-blocks": 0,
-        "perf-standard/no-instanceof-gaurd": 2,
+        "perf-standard/no-instanceof-guard": 2,
+        "perf-standard/no-self-in-constructor": 2,
+        "perf-standard/check-function-inline": 1,
         "quote-props": 0,
         "quotes": [
             2,
