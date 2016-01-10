@@ -8,6 +8,9 @@
         "jasmine": false,
         "es6": false
     },
+    "plugins": [
+        "perf-standard"
+    ],
     "globals": {
         "__dirname": false,
         "__filename": false,
@@ -298,6 +301,9 @@
             "after"
         ],
         "padded-blocks": 0,
+        "perf-standard/no-instanceof-guard": 2,
+        "perf-standard/no-self-in-constructor": 2,
+        "perf-standard/check-function-inline": 1,
         "quote-props": 0,
         "quotes": [
             2,

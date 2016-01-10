@@ -16,14 +16,13 @@
       "name": "Raynos"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-perf-standard": "1.0.2"
+  },
   "devDependencies": {
     "coveralls": "^2.10.0",
     "istanbul": "^0.3.5",
-    "lint-trap": "^1.0.0",
     "opn": "^1.0.1",
-    "pre-commit": "0.0.11",
-    "tap-spec": "^2.1.1",
     "tape": "^3.4.0"
   },
   "licenses": [
