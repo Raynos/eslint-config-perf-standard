@@ -26,6 +26,16 @@ Use like so:
 }
 ```
 
+Also configure your package.json like so:
+
+```js
+{
+    "scripts": {
+        "lint": "eslint $(git ls-files | grep '.js$')"
+    }
+}
+```
+
 ## Installation
 
 `npm install eslint-config-perf-standard`
