@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-perf-standard",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "A set of eslint rules for performant JS",
   "keywords": [],
   "author": "Raynos <raynos2@gmail.com>",
