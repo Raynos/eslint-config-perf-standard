@@ -16,8 +16,9 @@
       "name": "Raynos"
     }
   ],
-  "dependencies": {
-    "eslint-plugin-perf-standard": "1.0.2"
+  "peerDependencies": {
+    "eslint-plugin-perf-standard": "1.0.3",
+    "eslint": "1.8.0"
   },
   "devDependencies": {
     "coveralls": "^2.10.0",
