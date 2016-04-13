@@ -36,6 +36,23 @@ Also configure your package.json like so:
 }
 ```
 
+## Rules explanation
+
+There are a lot of rules in this project; I will explain a few of
+them here for the ones that are non-trivial
+
+### `no-restricted-modules`
+
+There are a few modules that are banned and there are alternatives
+available.
+
+ - `lodash`, `underscore`. These modules come with a few downsides. Namely
+    that they are not performant and that they add many stacks to your
+    stacktrace and flamegraphs. Favor plain loops, do not use `map()` and friends.
+ - `async`. Async is a kitchen sink and not performant. Favor a library that
+    discourages allocation of closures like https://github.com/Raynos/fanout-task
+
+
 ## Installation
 
 `npm install eslint-config-perf-standard`
